@@ -8,6 +8,9 @@
     <style>
         h1 {
             font-size: 75px;
+            color: lightgray;
+            -webkit-text-stroke: 1px;
+            -webkit-text-stroke-color: black;
         }
 
         i {
@@ -15,33 +18,59 @@
         }
 
         header {
-            background: linear-gradient(110deg,
-                    yellow 40%,
-                    pink 40%);
+            background: linear-gradient(200deg,
+                    rgb(0, 107, 107) 40%,
+                    rgb(210, 103, 3) 40%);
         }
 
         section {
             background: lightgray;
+        }
+
+        footer {
+            background: black;
+            color: white;
+        }
+
+        div {
+            text-align: center;
+            padding: 40px
+        }
+
+        h3 {
+            border: 2px solid white;
+            font-size: 45px;
+            padding: 15 px;
+            margin: auto;
+            max-width: 400px
         }
     </style>
 </head>
 
 <body>
     <header>
-        <h1>Shayla Byrne</h1>
+        <div>
+            <h1>Shayla Byrne</h1>
+            <h3>Launching soon...</h3>
+            <p>November 30, 2023</p>
+        </div>
     </header>
     <main>
         <Section>
-            <h3>Motivation:<br>
-                <i>I want to learn coding</i> to be able to change to a career with advancment opportunity to create a
-                better life for myself and my family.
-                Launching soon...
-            </h3>
+            <div>
+                <h3>Motivation:<br>
+                    <p> <i>I want to learn coding</i><br> to be able to change to a career with advancment opportunity,
+                        adaptability, and more freedom, to create a better life for myself and my family.
+                    </p>
 
+                </h3>
+            </div>
         </Section>
     </main>
-    <footer>&copy 2023 Shayla</footer>
-    <p>November 30, 2023</p>
+    <footer>
+        <div>&copy 2023 Shayla
+    </footer>
+    </div>
 </body>
 
 </html>
